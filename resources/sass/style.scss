@@ -1,0 +1,20 @@
+// Framework
+@import "framework/bootstrap.scss";
+
+// Base
+@import "base/reset";
+@import "base/variables";
+@import "base/mixins";
+
+// Padrao
+@import "pages/padrao/header";
+@import "pages/padrao/footer";
+
+// Internas
+@import "pages/interno/login";
+@import "pages/interno/cadastro";
+@import "pages/interno/dashboard";
+@import "pages/interno/produtos-dashboard";
+
+// Home
+@import "pages/home/produtos";

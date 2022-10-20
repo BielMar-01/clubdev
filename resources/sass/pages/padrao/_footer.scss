@@ -1,0 +1,32 @@
+footer {
+  background: #49555E;
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 193px;
+    align-items: center;
+    padding: 53px 0;
+    &__logo {
+      a {
+        font-family: 'Racing Sans One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        background: linear-gradient(90deg, #49C5B6 0%, #346FC8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;  
+      }
+    }
+    &__copy {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #F5F5F5;
+    }
+  }
+}

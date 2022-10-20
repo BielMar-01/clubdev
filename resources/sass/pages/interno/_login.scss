@@ -1,0 +1,37 @@
+.login {
+  margin-top: 130px;
+  text-align: center;
+  &__titulo {
+    @include tituloHome;
+  }
+  &__forms {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    &__form {
+        input {
+            width: 466px;
+            height: 62px;
+            color: #49C5B6;
+            background: #E4E4E4;
+            border-radius: 8px;
+            border: none;
+            margin-top: 15px;
+            padding: 17px 0px 17px 28px;
+        }
+    }
+    &__btn {
+        margin-top: 15px;
+        div {
+            button {
+                margin-top: 25px;
+                border: none;
+                @include btnGeral;
+            }
+            div {
+                margin-top: 15px;
+            }
+        }
+    }
+  }
+}

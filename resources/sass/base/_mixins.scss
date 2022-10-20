@@ -1,0 +1,45 @@
+@mixin linkHeader {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $color-text-nav-header;
+  }
+
+  @mixin logo {
+    font-family: 'Inter';
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: bold;
+    color: $color-text-logo-header;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px $color-text-shadow-header;
+  }
+
+  @mixin btnGeral {
+    background: #49C5B6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #49555E;
+    padding: 5px 14px 6px 15px;
+  }
+
+  @mixin tituloHome {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #757E85;
+    text-align: center;
+  }

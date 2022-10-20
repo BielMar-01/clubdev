@@ -1,0 +1,30 @@
+.dashboard {
+  margin-top: 161px;
+  margin-bottom: 364px;
+  &__titulo{
+    @include tituloHome;
+  }
+  &__crud {
+    margin-top: 72px;
+    text-align: right;
+    button {
+      @include btnGeral;
+      border: none;
+      text-align: right;
+    }
+    table {
+      margin-top: 72px;
+      border: 1px solid black;
+      width: 100%;
+      thead {
+        border: 1px solid black;
+        tr {
+          width: 25%;
+        }
+      }
+      tbody {
+        border: 1px solid black;
+      }
+    }
+  }
+}

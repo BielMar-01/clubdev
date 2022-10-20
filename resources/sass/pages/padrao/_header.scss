@@ -1,0 +1,101 @@
+header {
+  background: $bg-primary-header;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 53px 0;
+    &__logo {
+      font-family: 'Racing Sans One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: 0.05em;
+      background: linear-gradient(90deg, #49C5B6 0%, #346FC8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    &__name {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        margin-left: 200px;
+    }
+    &__busca {
+      &__text {
+        width: 710px;
+        height: 38px;
+        padding: 9px 0 10px 22px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        color: #5B5B5B;
+        background: #DCDCDC;
+        border-radius: 8px;
+        border: none;
+      }
+    }
+    &__nav {
+      nav {
+        ul {
+          li {
+            a {
+              @include btnGeral;
+            }
+          }
+        }
+      }
+    }
+    &__subNav {
+      display: flex;
+    }
+  }
+}
+.subHeader {
+  background: #49555E;
+  &__nav{
+    nav{
+      ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 0;
+        li{
+          a {
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
+
+.btnHeader {
+    @include btnGeral;
+    &:hover {
+        color: #49555E;
+        text-decoration: none;
+    }
+}
+
+.dropdown {
+    @include btnGeral;
+    padding: 0;
+    &:hover {
+        color: #49555E;
+        text-decoration: none;
+    }
+}
